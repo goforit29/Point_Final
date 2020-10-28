@@ -1,0 +1,11 @@
+takbaeyu\Point.class
+takbaeyu\PolicyHandler.class
+takbaeyu\Delivered.class
+takbaeyu\Pointused.class
+takbaeyu\PointController.class
+takbaeyu\AbstractEvent.class
+takbaeyu\config\kafka\KafkaProcessor.class
+takbaeyu\PointRepository.class
+takbaeyu\PointApplication.class
+takbaeyu\Reviewed.class
+takbaeyu\AbstractEvent$1.class

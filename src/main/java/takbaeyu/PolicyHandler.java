@@ -65,7 +65,7 @@ public class PolicyHandler{
                 if(pointTmp.getMemberId() == reviewed.getMemberId()){
                     Optional<Point> PointOptional = pointRepository.findById(pointTmp.getId());
                     Point point = PointOptional.get();
-                    point.setPoint(point.getPoint()+100);
+                    point.setPoint(point.getPoint()+50);
                     pointRepository.save(point);
                     flag=1;
                 }
@@ -75,7 +75,7 @@ public class PolicyHandler{
             if (flag==0){
                 Point point = new Point();
                 point.setMemberId(reviewed.getMemberId());
-                point.setPoint((long)100);
+                point.setPoint((long)50);
                 pointRepository.save(point);
             }
 
